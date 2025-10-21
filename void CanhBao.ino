@@ -24,7 +24,7 @@ void CanhBao() {
     digitalWrite(ledAlarm, HIGH);      // tắt LED đỏ
   }
   if (ERR2 == 1 && ERR == 1){
-    digitalWrite(buzz, !ledState);     
+  //  digitalWrite(buzz, !ledState);     
     mauCanhBao = 1;
   }
   else {
