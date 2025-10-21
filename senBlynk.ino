@@ -1,5 +1,5 @@
 void senBlynk() {
-  
+  // NẾU MUỐN THÊM TRẠM THÌ THÊM PIN 
   Blynk.virtualWrite(0, nhietdo1);
   Blynk.virtualWrite(1, doam1);
   Blynk.virtualWrite(2, bui1);
