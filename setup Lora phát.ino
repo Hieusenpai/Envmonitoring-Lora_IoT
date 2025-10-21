@@ -1,4 +1,6 @@
-Ng_hieuuu, [10/10/2025 19:11]
+*/
+  Ng_hieuuu, [10/10/2025 19:11]
+  NẾU K SET UP ĐC LORA THÌ SỬ DỤNG PHẦN MỀM CỦA NHÀ LORA ĐỂ CÀI CẤU HÌNH MODUN CHO ĐƠN GIẢN TRÁNH TÌNH TRẠNG TREO CHIP 
 Library
   Lora E32: https://github.com/xreef/LoRa_E32_Series_Library
 
