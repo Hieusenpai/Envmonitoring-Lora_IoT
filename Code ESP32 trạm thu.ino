@@ -3,14 +3,7 @@
    Receive fixed transmission message as a specified point.
    https://www.mischianti.org/2019/11/10/lora-e32-device-for-arduino-esp32-or-esp8266-fixed-transmission-part-4/
   
-  Update:
-          + 04/04/2024: Sửa lại code nhằm phù hợp với BLynk phiên bản mới
-  Địa chỉ:
-          - configuration.ADDL = 6;
-          - configuration.ADDH = 0;
-          - configuration.CHAN = 0x09;
-
-   LIBRARY
+    LIBRARY
    - TFT_eSPI (2.5.43)
 
 */
