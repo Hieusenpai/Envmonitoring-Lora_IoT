@@ -1,9 +1,19 @@
-Ng_hieuuu, [10/10/2025 19:27]
+char data_e32[50];
+int idx = 0;
 void NhanDuLieu() {
-  if (e32ttl.available()  > 1) {
-    ResponseContainer rs = e32ttl.receiveMessage();
+  while (Serial2.available()) {
+    delay(200);
+    memset(data_e32 , 0 , 50);
+    idx = 0;
+    while (Serial2.available())
+    {
+      data_e32[idx++] = Serial2.read();
+      if(idx > 49) idx  = 0; 
+    }
+    
     // First of all get the data
-    String message = rs.data;
+    String message =(String)data_e32;
+    Serial.println(message);
     xulydulieu(message);
 
     if (t1 == 1) {
@@ -123,8 +133,7 @@ void xulydulieu(String mes) {
     t4 = nghin * 1000 + tram * 100 + chuc * 10 + dv;
   }
 
-Ng_hieuuu, [10/10/2025 19:27]
-s = str.indexOf("f") - str.indexOf("e");
+  s = str.indexOf("f") - str.indexOf("e");
   if (s == 2) {
     t5 = str[str.indexOf("e") + 1] - '0';
   }
