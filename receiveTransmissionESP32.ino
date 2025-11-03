@@ -1,16 +1,4 @@
-/*
-   LoRa E32-TTL-100
-   Receive fixed transmission message as a specified point.
-   https://www.mischianti.org/2019/11/10/lora-e32-device-for-arduino-esp32-or-esp8266-fixed-transmission-part-4/
-  
-    LIBRARY
-   - TFT_eSPI (2.5.43)
-
-*/
-
 TaskHandle_t Task2;
-
-#include "iconSuDung.h"
 //#include <TFT_eSPI.h> // Graphics and font library for ST7735 driver chip
 #include <SPI.h>
 //TFT_eSPI tft = TFT_eSPI();  // Invoke library, pins defined in User_Setup.h
